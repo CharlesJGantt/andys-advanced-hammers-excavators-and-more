@@ -22,6 +22,10 @@ Hold any of the five tools and a wireframe outline shows the exact blocks that s
 SHA-256  21082ecc23e0f5c937cf4da9ed30bc55810801ea0db77f0deb3d544be73b8868
 ```
 
+## Documentation
+
+The **[player wiki](https://github.com/CharlesJGantt/andys-advanced-hammers-excavators-and-more/wiki)** has the full reference: every tool, every menu and option, the crafting grids, compatibility notes, and a troubleshooting page.
+
 ## Requirements
 
 | | |
