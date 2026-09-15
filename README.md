@@ -1,195 +1,180 @@
-<div align="center">
-
-<img src="./Andys-Advanced-Hammers-Excavators-And-More-Hero-16x9-FINAL.png" alt="Andy's Advanced Hammers, Excavators &amp; More — Bedrock Add-On" width="900">
-
-</div>
+<p align="center">
+  <img src="Andys-Advanced-Hammers-Excavators-And-More-Hero-16x9-FINAL.png" alt="Andy's Advanced Hammers, Excavators & More" width="100%">
+</p>
 
 # Andy's Advanced Hammers, Excavators & More
 
-**Five tool families. Seven tiers. Every swing shows you exactly what it will take.**
+**Mine, shape, prepare, harvest, and plant whole areas with quiet, previewed Survival tools.**
 
-A Minecraft Bedrock add-on adding Hammers, Excavators, Tillers, Scythes, and Seeder Rakes — a complete set of area tools for the four jobs vanilla makes you do one block at a time. Hammers and Excavators clear a shape you configure yourself. Tillers lay out a whole 9×9 farm, including researched optimal plot layouts for pumpkins, melons, and sugar cane. Scythes sweep vegetation and harvest ripe crops without wrecking the field underneath. Seeder Rakes plant a 4×4 plot straight from your inventory.
+Five tool families across seven vanilla-style tiers speed up repetitive work while preserving normal loot, enchantments, durability costs, protected blocks, and achievement-friendly world settings.
 
-Hold any of the five tools and a wireframe outline shows the exact blocks that swing will affect, before you commit to it.
+<p align="center">
+  <img src="images/tool-lineup.png" alt="Every tool family across all seven material tiers" width="700">
+</p>
 
-**Current version: 0.1.28**
+_Hammers, Excavators, Tillers, Scythes, and Seeder Rakes from Wooden through Netherite._
 
-## Download
+**Current release:** 0.1.29
 
-**[Andys_Advanced_Hammers_Excavators_And_More_0.1.28.mcaddon](./Andys_Advanced_Hammers_Excavators_And_More_0.1.28.mcaddon)**
+**Download:** [Andys_Advanced_Hammers_Excavators_And_More_0.1.29.mcaddon](Andys_Advanced_Hammers_Excavators_And_More_0.1.29.mcaddon)
 
-```text
-SHA-256  21082ecc23e0f5c937cf4da9ed30bc55810801ea0db77f0deb3d544be73b8868
-```
+**SHA-256:** `A70A929246F44E3FAD14AD4F29EB3D32D2F6805C0C6DD59AAE9CBA933F13A84F`
 
-## Documentation
+Minecraft Bedrock **1.26.30 or newer** is required. Activate both included packs. No cheats, commands, experimental gameplay toggles, or additional dependencies are required. Standard graphics and Vibrant Visuals are supported.
 
-The **[player wiki](https://github.com/CharlesJGantt/andys-advanced-hammers-excavators-and-more/wiki)** has the full reference: every tool, every menu and option, the crafting grids, compatibility notes, and a troubleshooting page.
-
-## Requirements
-
-| | |
-|---|---|
-| Minimum Bedrock version | 1.26.30 |
-| Graphics | Standard graphics and Vibrant Visuals |
-| Experimental toggles | None required |
-| Cheats | Not required for any player-facing feature |
-| Dependencies | None |
-| Achievement compatible | Yes — verified in a cheats-off survival world with no experiments |
+The complete player, user, and admin documentation is in the [GitHub Wiki](https://github.com/CharlesJGantt/andys-advanced-hammers-excavators-and-more/wiki).
 
 ## Features
 
-- **Hammers** — area mining for stone, ore, and metal. Only takes blocks in the same family as the one you hit, so a swing into stone leaves an embedded ore untouched. Ore families group their Deepslate variants; copper families ignore waxing and oxidation.
-- **Excavators** — the same for dirt, sand, gravel, snow, clay, mud, soul sand, soul soil, and concrete powder.
-- **Configurable break region** — Cuboid or ascending/descending stair-step, 1–5 in each axis up to a 125-block cap, aimed at the face you hit or locked to a world plane.
-- **Tillers** — a full 9×9 farm in one interaction, clearing plants, preserving existing water, and opening a centre irrigation hole. Three selectable layouts: standard field, optimal pumpkin and melon plot, optimal sugar cane plot with dug channels.
-- **Optional Tiller irrigation** — fill the centre hole with a waterlogged block and raise a lit lamppost over it, both paid for from your own inventory.
-- **Scythes** — sweep a 9×9 of vegetation including the tops of tall plants, or harvest the mature crops in a 3×3. Harvested crops are not reset or replanted, and the farmland underneath is never damaged.
-- **Seeder Rakes** — plant a 4×4 plot from your inventory, checked against real vanilla placement rules for all thirteen supported crops.
-- **Live previews** — every tool outlines exactly what it will change: white for blocks that change, blue for water, green for rows a plot layout leaves open.
-- **Vanilla everything else** — Fortune, Silk Touch, Unbreaking, Efficiency, and Mending all work through vanilla systems. Drops match a normal tool and keep the standard five-minute item lifetime.
-- **Never breaks** containers, technical blocks, portals, or unbreakable blocks, in any pattern.
-- **Server controls** — five global tool toggles on the world settings screen, in an operator menu, and from a dedicated-server console.
+- Hammers mine configurable cuboids and stair-steps through stone, ore, and metal families.
+- Excavators apply the same patterns to dirt, sand, gravel, snow, clay, mud, and related terrain.
+- Tillers prepare standard, pumpkin/melon, or sugar-cane 9×9 plots with optional inventory-funded irrigation and lighting.
+- Scythes clear 9×9 vegetation or harvest mature crops in a 3×3 without breaking farmland.
+- Seeder Rakes plant thirteen supported crops in a validated, inventory-funded 4×4.
+- White, blue, and green wireframes preview affected, water, and deliberately open cells.
+- All ordinary tool use is silent: no completion counts or debug notices fill chat or the action bar.
+- World owners can independently disable each family in pack settings, an operator form, or the BDS console.
+- All 35 recipes register automatically when Andy's Salvage Table is installed; the integration is optional.
 
-## See it working
+## Crafting Recipes
 
-<img src="./screenshots/tool-lineup.png" alt="Every tool family laid out across all seven material tiers" width="820">
+Use the material for the chosen tier. Wooden accepts Planks; Stone accepts Cobblestone, Blackstone, or Cobbled Deepslate; Copper, Gold, Iron, and Diamond use their matching material.
 
-*All five families across all seven tiers - 35 tools.*
+### Hammer
 
-<img src="./screenshots/preview-standard-field.png" alt="A 9 by 9 grid of white outlines with a blue outlined block at the centre" width="820">
+| | | |
+| --- | --- | --- |
+| Material | Material | Material |
+| Material | Stick | Material |
+| | Stick | |
 
-*Hold a Tiller and the whole 9x9 is outlined before you commit. Blue marks the centre irrigation hole.*
+### Excavator
 
-<img src="./screenshots/preview-pumpkin-melon-plot.png" alt="Alternating white and green outlined rows with a blue centre block" width="820">
+| | | |
+| --- | --- | --- |
+| Material | | Material |
+| Material | Material | Material |
+| | Stick | |
 
-*The pumpkin and melon plot: white stem rows, green fruit rows left open, blue centre. All three shades at once.*
+### Tiller
 
-<img src="./screenshots/pumpkin-melon-plot-created.png" alt="A finished plot of alternating farmland and dirt rows" width="820">
+| | | |
+| --- | --- | --- |
+| Material | Material | Material |
+| Material | | Stick |
+| | | Stick |
 
-*The same plot after one interaction - five farmland stem rows facing four open dirt rows.*
+### Scythe
 
-<img src="./screenshots/preview-sugar-cane-plot.png" alt="Three blue outlined channel rows separated by green outlined growing rows" width="820">
+| | | |
+| --- | --- | --- |
+| Material | Material | Material |
+| | | Stick |
+| | Stick | |
 
-*The sugar cane plot: a channel every third row, so every growing row touches water.*
+### Seeder Rake
 
-<img src="./screenshots/sugar-cane-channels-dug.png" alt="Three parallel dug trenches in a grass field" width="820">
+| | | |
+| --- | --- | --- |
+| | | Material |
+| Stick | Stick | Material |
+| | | Material |
 
-*Dug and ready. Two buckets flood each nine-long channel - the tool never creates water for free.*
-
-<img src="./screenshots/hammer-stair-step.png" alt="A stair-step tunnel cut through stone with a white outline on the next region" width="820">
-
-*A Hammer cutting a descending staircase. The chat line reports what the last swing took.*
-
-<img src="./screenshots/preview-scythe-harvest.png" alt="A 3 by 3 outline over a large field of carrots" width="820">
-
-*The Scythe harvest preview. Only mature crops inside it are taken, and the farmland survives.*
-
-## Crafting
-
-Every tool is crafted at a Crafting Table from a tier material and Sticks. **Material** is whichever tier you are making: any Planks, Cobblestone / Blackstone / Cobbled Deepslate, Copper Ingot, Gold Ingot, Iron Ingot, or Diamond. Netherite is not crafted in a grid - upgrade a finished Diamond tool at a Smithing Table with a Netherite Upgrade Smithing Template and a Netherite Ingot.
-
-Shown at Diamond tier:
-
-<img src="./screenshots/recipe-hammer.png" alt="The Diamond Hammer recipe: five diamonds and two sticks" width="620">
-
-***Hammer** - 5 Material + 2 Sticks*
-
-<img src="./screenshots/recipe-excavator.png" alt="The Diamond Excavator recipe: five diamonds and one stick" width="620">
-
-***Excavator** - 5 Material + 1 Stick*
-
-<img src="./screenshots/recipe-tiller.png" alt="The Diamond Tiller recipe: four diamonds and two sticks" width="620">
-
-***Tiller** - 4 Material + 2 Sticks*
-
-<img src="./screenshots/recipe-scythe.png" alt="The Diamond Scythe recipe: three diamonds and two sticks" width="620">
-
-***Scythe** - 3 Material + 2 Sticks*
-
-<img src="./screenshots/recipe-seeder-rake.png" alt="The Diamond Seeder Rake recipe: three diamonds down the right column and two sticks" width="620">
-
-***Seeder Rake** - 3 Material + 2 Sticks*
-
-The Tiller, Scythe, and Seeder Rake shapes are not symmetric, so each also crafts mirrored.
+Upgrade each Diamond tool at a Smithing Table with a Netherite Upgrade Smithing Template and Netherite Ingot.
 
 ## Installation
 
-1. Download the `.mcaddon` linked above.
+### Windows, Android, iPhone, and iPad
+
+1. Download [Andys_Advanced_Hammers_Excavators_And_More_0.1.29.mcaddon](Andys_Advanced_Hammers_Excavators_And_More_0.1.29.mcaddon).
 2. Open it with Minecraft Bedrock and wait for both packs to import.
-3. Create a world, or edit an existing one.
-4. Under **Behavior Packs → My Packs**, activate **Andy's Advanced Hammers, Excavators & More [BP]**.
-5. Confirm **Andy's Advanced Hammers, Excavators & More [RP]** is active under Resource Packs. The packs are linked, but verify both.
-6. Enter the world and craft your first tool at a Crafting Table.
+3. Create or edit a world.
+4. Activate **Andy's Advanced Hammers, Excavators & More [BP]** under Behavior Packs.
+5. Confirm **Andy's Advanced Hammers, Excavators & More [RP]** is active under Resource Packs.
+6. Craft a tool and aim at a valid target to see its selection preview.
 
-On Android and iOS, share the `.mcaddon` to Minecraft and activate both packs on the intended world. For consoles, prepare the world on a desktop or mobile device, upload it to a Realm, and join from the console.
+Back up an important world before installing or updating any add-on.
 
-## Controls
+### Xbox, PlayStation, and Nintendo Switch
 
-| Action | Hammer | Excavator | Tiller | Scythe | Seeder Rake |
-|---|---|---|---|---|---|
-| Break a block | Area mine | Area dig | — | Sweep or harvest | — |
-| Use on a block | — | — | Prepare the plot | Sweep or harvest | Plant the 4×4 |
-| Crouch + use | Shape menu | Shape menu | Tiller menu | — | Crop selector |
+Import and activate the add-on on Windows or mobile, upload the prepared world to a Realm, and join that Realm from the console.
 
-Crouching also hides the preview outline, so a menu always opens with a clear view.
+## Controls and menus
 
-## Menus
+1. Hold a tool and use its wireframe to inspect the next affected area.
+2. Break a block with a Hammer or Excavator to apply the selected mining pattern.
+3. Use a Tiller, Scythe, or Seeder Rake on a valid target to perform its area action.
+4. Crouch-use a Hammer or Excavator for pattern controls, a Tiller for layouts and irrigation, or a Seeder Rake for crop selection.
+5. Operators see global family overrides in the pattern menu; BDS operators can use `scriptevent andys_excavators:help`.
 
-<img src="./screenshots/shape-menu.png" alt="The shape menu with Pattern and Orientation dropdowns and a size slider" width="820">
+<p align="center">
+  <img src="images/operator-overrides.png" alt="Andy's Advanced Hammers, Excavators & More operator overrides" width="600">
+</p>
 
-*Crouch-use a Hammer or Excavator for the shape menu: pattern, orientation, and four size sliders.*
+## Compatibility and limitations
 
-<img src="./screenshots/tiller-menu.png" alt="The Tiller menu showing the Plot layout section and Layout dropdown" width="820">
+- Minecraft Bedrock 1.26.30 or newer
+- Both included packs must be active; no required add-on dependencies
+- Standard graphics and Vibrant Visuals/PBR
+- Single-player, multiplayer, Realms, and compatible Bedrock servers
+- No cheats, commands, or experimental toggles required for normal play
+- Area selections are capped at 125 blocks and previews at 128 outlines
+- Third-party blocks participate only when they expose compatible vanilla-style tags
 
-*Crouch-use a Tiller for the plot layout and both irrigation options.*
+See [Compatibility and Troubleshooting](https://github.com/CharlesJGantt/andys-advanced-hammers-excavators-and-more/wiki/Compatibility-and-Troubleshooting) for detailed diagnostics.
 
-<img src="./screenshots/tiller-menu-lamppost.png" alt="The lamppost section with green lines naming an oak fence and a copper lantern" width="820">
+## Support AndyTheMakerMC
 
-*Every option says, in green or red, whether the items it needs are actually in your inventory.*
+![Support Future Addon Development CTA](https://github.com/user-attachments/assets/dc0ebd24-560a-47b9-b13f-d38d46e24d5f)
 
-<img src="./screenshots/seeder-menu.png" alt="The Seeder Rake crop selector showing Carrots with 231 available" width="820">
+All of my Minecraft Bedrock add-ons are free to download and use. If one of my add-ons has improved your world, saved you time, or added something you wish Minecraft already had, consider supporting continued development. Your support helps fund the time and tools required to maintain existing add-ons, test new Minecraft Bedrock releases, fix bugs, create documentation and artwork, and continue building new add-ons.
 
-*Crouch-use a Seeder Rake to pick a crop. Each entry shows how many you are carrying.*
+**Help me keep these add-ons free, updated, and actively maintained** — support through [Buy Me a Coffee](https://www.buymeacoffee.com/AndyTheMakerMC) or a direct donation through [Stripe](https://buy.stripe.com/4gM4gz0qu0xwgxw0IfcMM00). Prefer another way? [Ko-fi](https://ko-fi.com/andythemaker) · [Patreon](https://www.patreon.com/cw/AndyTheMakerMC) · [GitHub Sponsors](https://github.com/sponsors/CharlesJGantt). Every bit of support is appreciated, but it is never required.
 
-## Server and operator controls
+Enjoying the add-on? Ratings, favorites, recommendations, and kind comments also help more Bedrock players discover Andy's work.
 
-Each of the five families can be turned off independently, from the world settings screen, from the operator section of the shape menu, or from a console:
+### Explore more of Andy's add-ons
 
-```text
-scriptevent andys_excavators:set <hammer|excavator|tiller|scythe|seeder> <on|off>
-scriptevent andys_excavators:list
-scriptevent andys_excavators:status
-scriptevent andys_excavators:reset
-scriptevent andys_excavators:help
-```
+![Visit AndyTheMakerMC.XYZ Website - Screenshot](https://github.com/user-attachments/assets/f7490ad7-6e05-4301-afe5-fcab49c9be9c)
 
-Only operators and the dedicated-server console may change these. Tool availability is stored on the world; each player's shape, crop choice, and Tiller options are stored per player.
+Visit [AndyTheMakerMC.xyz](https://andythemakermc.xyz/) for more Minecraft Bedrock add-ons, `.mcstructure` downloads, HoloPrint files, world lore, tutorials, guides, videos, and other creations.
 
-## Tool texture attribution
+### Follow AndyTheMakerMC
 
-This add-on uses selected tool textures from the following open-source Minecraft projects. Some textures were recolored or renamed to fit this add-on's supported material tiers.
+![Follow Andy's Socials CTA](https://github.com/user-attachments/assets/2a67b803-3260-4aad-bf26-61a937aa9af4)
 
-**Hammers** — Wooden, Golden, Iron, and Netherite Hammer textures from Vanilla Hammers by Draylar and contributors ([GitHub](https://github.com/Draylar/vanilla-hammers), MIT License). Copper and Diamond Hammer textures from More Hammers & Excavators by ianm1647 ([GitHub](https://github.com/ianm1647/more-hammers-and-excavators), MIT License).
+Follow **@AndyTheMakerMC** for new add-on releases, development updates, tutorials, showcases, streams, and more Minecraft adventures, and join the community on Discord and Facebook:
 
-**Excavators and Tillers** — derived from Advanced Netherite – Bedrock Edition, reworked by Lilium Studio ([GitHub](https://github.com/LiliumStudio/Advanced-Netherite-Bedrock-Edition), GPL-3.0). That project credits the original Java textures to LizterZapZap and the original Advanced Netherite project by Autovw ([GitHub](https://github.com/Autovw/AdvancedNetherite)).
+- [YouTube](https://www.youtube.com/@AndyTheMakerMC)
+- [Twitch](https://www.twitch.tv/AndyTheMakerMC)
+- [TikTok](https://www.tiktok.com/@AndyTheMakerMC)
+- [Instagram](https://www.instagram.com/andythemakermc/)
+- [X (Twitter)](https://x.com/AndyTheMakerMC)
+- [Discord](https://discord.gg/KVFNHf67Y)
+- [Facebook Group](https://www.facebook.com/groups/1728623358327048)
 
-**Scythes** — from Server-Side Scythes by agmass ([GitHub](https://github.com/agmass/Server-Side-Scythes), LGPL-2.1).
+## End-user permission
 
-**Seeder Rakes** — from Rake by Exline ([GitHub](https://github.com/jexline/rake), CC0-1.0).
+You may download the official, unmodified release of Andy's Advanced Hammers, Excavators & More from its official CurseForge or authorized GitHub project page and install, activate, and use it in personal single-player worlds, multiplayer worlds, Realms, and compatible Bedrock servers.
 
-All original assets remain subject to their respective licenses.
+This permission includes Minecraft's normal automatic delivery of the official, unmodified add-on to players joining a world, Realm, or server where it is active. It does not permit offering the add-on file separately or distributing it as part of a world download, modpack, bundle, mirror, archive, or server download.
 
-## License
+## Content-creator permission
 
-All Rights Reserved. See [LICENSE.md](./LICENSE.md) for end-user and content-creator permissions.
+Content creators may use an official, unmodified release of Andy's Advanced Hammers, Excavators & More in original gameplay videos, livestreams, screenshots, tutorials, reviews, showcases, articles, guides, social posts, and other original content, including monetized content.
+
+Credit to **AndyTheMakerMC** and a link to the official CurseForge project page are appreciated whenever practical. This permission covers display of normal gameplay and commentary; it does not grant permission to redistribute, modify, extract, or republish the add-on or its assets.
+
+## License — All Rights Reserved
+
+**All Rights Reserved. Copyright © 2026 Andy / AndyTheMakerMC.**
+
+You may not redistribute, reupload, rehost, mirror, resell, sublicense, bundle, repackage, modify and publish, translate, adapt, decompile, disassemble, reverse engineer, extract, or reuse the add-on, its source code, scripts, documentation, branding, textures, models, pack icons, or promotional artwork without prior written permission from the copyright holder.
+
+You may not create derivative works or incorporate any portion of the project into another add-on, Behavior Pack, Resource Pack, application, product, modpack, download, or project without prior written permission. The end-user and content-creator permissions above are limited permissions; they do not transfer ownership or grant redistribution rights.
+
+The promotional artwork is original AI-assisted concept artwork directed for this project. It is not an in-game screenshot.
 
 Minecraft is a trademark of Microsoft Corporation. This project is not affiliated with, endorsed by, sponsored by, or associated with Microsoft or Mojang Studios.
 
----
-
-<div align="center">
-
-**[AndyTheMakerMC.xyz](https://andythemakermc.xyz/)** · [YouTube](https://www.youtube.com/@AndyTheMakerMC) · [Twitch](https://twitch.tv/AndyTheMakerMC) · [X](https://x.com/AndyTheMakerMC) · [TikTok](https://www.tiktok.com/@AndyTheMakerMC) · [Instagram](https://www.instagram.com/AndyTheMakerMC)
-
-</div>
+See [LICENSE.md](LICENSE.md) for the complete license and permitted-use terms.

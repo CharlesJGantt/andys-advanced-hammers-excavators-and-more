@@ -1,15 +1,11 @@
-# Andy's Advanced Hammers, Excavators & More 0.1.28
+# Andy's Advanced Hammers, Excavators & More 0.1.29
 
-Initial public release of five area-tool families for Minecraft Bedrock, across seven material tiers.
+This update keeps fast area work out of your way and completes compatibility with Andy's Salvage Table.
 
-- Ships in seven tiers: Wooden, Stone, Copper, Golden, Iron, Diamond, and Netherite — 35 tools in total.
-- Added **Hammers** and **Excavators** with a configurable break region — Cuboid or stair-step, up to 5 × 5 × 5, aimed at the face you hit or locked to a world plane. Both only take blocks in the same family as the block you actually hit.
-- Added **Tillers** that prepare a whole 9 × 9 farm in one interaction, with three selectable plot layouts: a standard field, an optimal pumpkin and melon plot, and an optimal sugar cane plot with dug water channels.
-- Added **Scythes** that sweep a 9 × 9 of vegetation, or harvest the mature crops in a 3 × 3 without resetting them and without damaging the farmland underneath.
-- Added **Seeder Rakes** that plant a 4 × 4 plot from your inventory, checking real vanilla placement rules for all thirteen supported crops.
-- Every tool draws a live wireframe preview of exactly what it will affect, in three colours: white for blocks that change, blue for water, green for rows a plot layout leaves open.
-- Configure Hammers and Excavators by crouch-using them; Tillers and Seeder Rakes each have their own crouch-use menu. Operators get global tool toggles in the same menu, on the world settings screen, and through `scriptevent andys_excavators:set <tool> <on|off>` from a dedicated-server console.
-- Fortune, Silk Touch, Unbreaking, Efficiency, and Mending all work through vanilla systems rather than reimplementations, so drops, wear, and item lifetime match a normal tool exactly.
-- Containers, technical blocks, portals, and unbreakable blocks are never broken, in any pattern or area.
-- Achievement compatible, verified in a cheats-off survival world with no experiments.
-- Includes linked Behavior and Resource Packs with Standard graphics and Vibrant Visuals support.
+- Removed routine action counts, disabled-tool warnings, and settings confirmations from player chat and the action bar.
+- Kept explicit operator and dedicated-server command replies so administrators can still verify settings and diagnose permissions.
+- Added optional Salvage Table registration for all 35 tools, including their Netherite smithing recipes. Nothing changes when the Salvage Table is not installed.
+- Updated the player, admin, CurseForge, GitHub, and wiki documentation to the current release templates.
+- No experiments, cheats, migrations, or setting resets are required.
+
+**SHA-256:** `A70A929246F44E3FAD14AD4F29EB3D32D2F6805C0C6DD59AAE9CBA933F13A84F`
